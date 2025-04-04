@@ -13,7 +13,11 @@ This project demonstrates your ability to apply regression modeling techniques t
 - Document your work in a structured Jupyter Notebook.
 
 ## Dataset 
-Titanic Dataset
+Housing Prices Dataset (Predict home values based on features like square footage and location)  
+- We use the built-in dataset from scikit-learn:  
+   - `from sklearn.datasets import fetch_california_housing`  
+- Additional dataset available on Kaggle:  
+   - [Kaggle Housing Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)  
 
 ## Python Library for Machine Learning: scikit-learn
 We use scikit-learn, built on NumPy, SciPy, and matplotlib
@@ -78,3 +82,24 @@ Analysis: How well did the model perform? Any surprises in the results?
 See [EXAMPLE_ANALYSIS](./docs/EXAMPLE_ANALYSIS.md) for more.
 
 ---
+
+## README.md (Required)
+
+Include a professional README.md. Include:
+- a personalized title
+- an introduction to your project
+- a clickable link to your notebook file.
+- Instructions on how to set up your virtual environment and run your notebook locally.
+   
+If starting with an assignment README, remove the parts you do not need to present your project.
+---
+
+## Repository Checklist
+
+Verify your repository contains:
+
+- [ ] Useful .gitignore (that keeps .venv out of GitHub)
+- [ ] Professional Jupyter Notebook with numbered sections   
+- [ ] Useful README.md
+- [ ] Useful requirements.txt
+
